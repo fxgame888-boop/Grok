@@ -23,7 +23,7 @@ if !qcount! GTR 0 (
     echo   !! WARNING: Found !qcount! files waiting to upload to xAI !!
     echo   They contain your chat history, terminal output, and code.
 ) else (
-    echo   Upload queue: empty (no pending uploads found)
+    echo   Upload queue: empty -- no pending uploads found
 )
 
 echo.
